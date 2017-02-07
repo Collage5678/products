@@ -1,0 +1,134 @@
+@import
+url('https://fonts.googleapis.com/css?family=Allura'); 
+
+@import url('https://fonts.googleapis.com/css?family=Philosopher:700');
+
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+
+
+body {
+   background-image: url(https://www.dropbox.com/s/vckv0jukihyazd9/lace%2C%20orig.png?raw=1);
+		background-repeat: repeat;
+	height: 1000px;
+}
+button { display:none;}
+
+
+/*nav bar*/
+ul.main {
+    list-style-type: none;
+		margin-left:28.1%;
+    padding: 17px;
+    overflow: hidden;
+    background-color: ;
+		font-family: "Philosopher";
+		font-size: 125%;
+		
+		
+}
+
+ul.main li {float: right;}
+
+ul.main li a {
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 20px 70px 20px 70px;
+		margin:0%;
+    text-decoration: none;
+}
+
+ul.main li a:hover:not(.active) {background-color: #9c9c5a;}
+
+ul.main li a.active {background-color: #9c9c5a;}
+
+@media screen and (max-width: 1200px) and (min-width: 601px){
+	ul.main {
+	margin-left:29%;
+		padding: 
+	}
+	ul.main li a { padding: 20px 45px 20px 45px; }
+}
+
+@media screen and (max-width: 600px){
+	button {display:inline-block;} 
+	img.logo {display:none;}
+	ul.main {display:none;}
+	ul.products {display:none;}
+}
+
+
+ul.products {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-image: url("https://www.dropbox.com/s/dibc4oocbcdbcun/wood.jpg?raw=1") ;
+    position: fixed;
+    height: 53%;
+    overflow: auto;
+		bottom:0;
+}
+
+.products li a {
+    display: block;
+    color: #000;
+    padding: 4px 0px 4px 20px;
+    text-decoration: none;
+}
+
+.products li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.products li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+/*end nav bar*/
+
+
+img.logo {
+	width: 250px;
+	height: 240px;
+	position: fixed;
+	background-repeat: repeat;
+	margin-top: -80px;
+	margin-left: 20px;
+}
+
+.products {
+	font-family: "Parisienne";
+	font-size: 28px;
+	color: #D3D3D3;
+}
+
+.items {
+	margin: 200px 30px 200px 30px;
+	text-align: center;
+	position: relative;
+}
+ul.lacey { 
+  background-image: url("https://www.dropbox.com/s/upqrvxd9qv9wkd4/lace%20taupe%20-%20Copy%20%282%29.jpg?raw=1");
+		background-repeat: repeat-x;
+}
+
+.burlap {
+	margin-top: 80px ;
+	margin: auto;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat-y;
+}
+
+.p {
+	text-align: center;
+}
+
+
+
+
+
